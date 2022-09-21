@@ -43,6 +43,7 @@ def writer():
         """
         临界区操作
         """
+        print("hi,i am a writer \n")
         wmutex.release()
 
         mutex.acquire()
